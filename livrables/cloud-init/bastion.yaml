@@ -1,0 +1,5 @@
+#cloud-config
+# Noeud de controle Ansible. Seule machine a detenir la cle privee du lab.
+ssh_authorized_keys:
+  - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMkJSFUvxtvtIC7m2LUd/r720XKwhTpOXGc/G2EwEKdX lab-scripting
+package_update: false

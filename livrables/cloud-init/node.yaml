@@ -1,0 +1,6 @@
+#cloud-config
+# Machine cible. Elle ne recoit que la cle publique du lab.
+ssh_authorized_keys:
+  - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMkJSFUvxtvtIC7m2LUd/r720XKwhTpOXGc/G2EwEKdX lab-scripting
+
+package_update: true
